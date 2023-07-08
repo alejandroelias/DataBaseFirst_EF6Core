@@ -1,0 +1,8 @@
+﻿## Comandos usados
+
+## Scaffold de la db dte
+Scaffold-DbContext name=DefaultConnection -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entidades
+
+##Update de la base
+Este comando es util se realizan cambios en la base
+Scaffold-DbContext name=DefaultConnection -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entidades -Force
